@@ -1,2 +1,8 @@
-Spring MVC的起步：
-代码里面包含了：
+Spring MVC的起步：对课程的一个增删改查的简单项目
+1，@controller和@responsebod相当于@restController
+2，@@RequestParam，@PathVariable，HttpServletRequest等方式的获取请求参数
+3，@ModelAttribute获取前端请求的对象（例如获取User对象，并保存到数据库）
+4，文件的上传（单文件和多文件）MultipartFile，MultipartHttpServletRequest等
+5，log4j的应用
+6，用Model存放业务数据
+7，通过return 进行页面重定向（return "redirect:view2/"+course.getCourseId();）跳转到另外一个controller方法
